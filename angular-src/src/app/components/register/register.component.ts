@@ -19,8 +19,7 @@ export class RegisterComponent implements OnInit {
     private validateService: ValidateService, 
     private flashMessage: FlashMessagesService,
     private authService: AuthService,
-    private router: Router
-  ) { }
+    private router: Router) { }
 
   ngOnInit() {
   }
