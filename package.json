@@ -7,18 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app"
   },
-
   "dependencies": {
-    "express": "*",
-    "mongoose": "*",
     "bcryptjs": "*",
-    "cors": "*",
-    "jsonwebtoken": "*",
     "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "nodemailer": "^4.1.1",
     "passport": "*",
-    "passport-jwt": "*"
+    "passport-jwt": "*",
+    "twit": "^2.2.9"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dennismfong/TwitterAlerts.git"
